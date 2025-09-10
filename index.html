@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">My Portfolio</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <img src="assets/images/profile.jpg" alt="Profile photo of Phani Bhushan Athlur" class="avatar" width="160" height="160" loading="eager">
+      <h1>Hi, I'm Phani Bhushan Athlur</h1>
+      <p>Seasoned Engineering Leader<br><span id="typed-text" aria-label="Areas"></span><span class="cursor" aria-hidden="true">|</span></p>
+      <a href="#projects" class="cta">View Projects</a>
+      <a href="assets/resume/Phani_Bhushan_Athlur_Resume.pdf" class="cta" download>Download Resume (PDF)</a>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <ul>
+        <li>Multifaceted Accomplished Engineering Leader with proven track record of driving Software Architecture, Development, Integration, Validation across Cloud, Edge AI, IoT, 5G, Telecom, Networking & Embedded domains</li>
+        <li>Built and Nurtured High-Performance Teams multiple times, Empowering teams to take Ownership to Deliver</li>
+        <li>Lead Cross Geo, Cross Functional Teams in complex Matrix Organizations fostering a culture of Collaboration and Excellence</li>
+        <li>Advocated and Practiced Agile & Kanban methodologies for continuous improvements & deterministic execution</li>
+        <li>Recognized with multiple awards for contributions across projects, programs, and functional domains</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of the project and your contributions.</p>
+        </article>
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>Short description of the project and your contributions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p><a href="mailto:phani.athlur@gmail.com" class="contact-email">phani.athlur@gmail.com</a></p>
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name">
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com">
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Say hello..."></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
